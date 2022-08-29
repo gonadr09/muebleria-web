@@ -19,10 +19,12 @@ Florentino - Gonzalo Díaz Rusconi - Kevin Díaz
 
 
 ¿Cuándo se entrega?
+
 Clase 22: miércoles 19 al viernes 21 de octubre de 2022.
 
 
 ¿Cómo se desarrollará el proyecto?
+
 El proyecto web se desarrollará en grupos de 3 integrantes cada uno (obligatorio). Cada
 grupo deberá designar un representante de forma tal de establecer contacto directo con el
 Docente. Será ese integrante el que recibirá la devolución del proyecto realizada por el
@@ -31,7 +33,9 @@ del desarrollo del proyecto.
 
 
 ¿Qué hay que entregar?
+
 El TPO deberá cumplir con los siguientes requisitos:
+
 ● Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio
 Web estilo One Page, el mismo deberá tener al menos 5 secciones.
 
@@ -49,6 +53,7 @@ tamaños de dispositivos distintos.
 
 ● Incorporar al menos una animación, transformación o una transición (se deberá
 indicar en qué parte del sitio web fue incorporada la animación).
+
 ● Poseer una estructura HTML maquetada con Flexbox y/o Grid.
 
 ● Consumir una API Rest desde JavaScript. Deberá informar la API utilizada al
