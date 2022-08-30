@@ -1,6 +1,5 @@
-(function(){
+const questions = () => {
     const titleQuestions = [...document.querySelectorAll('.questions__title')];
-    console.log(titleQuestions)
 
     titleQuestions.forEach(question =>{
         question.addEventListener('click', ()=>{
@@ -14,8 +13,10 @@
             if(answer.clientHeight === 0){
                 height = answer.scrollHeight;
             }
-
+            
             answer.style.height = `${height}px`;
         });
     });
-})();
+};
+
+questions();

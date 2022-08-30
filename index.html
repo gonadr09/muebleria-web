@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sillones TRE CENTER</title>
+    <title>Inicio | Sillones TRE CENTER</title>
     <link rel="shortcut icon" href="./img/logo4.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -34,7 +34,7 @@
 
 <body>
 
-    <header class="hero">
+    <header id="home" class="hero">
         <nav class="nav-fluid">
             <div class="nav container">
                 <div class="nav__logo">
@@ -43,19 +43,19 @@
 
                 <ul class="nav__link nav__link--menu">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#home" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="#about" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Catálogo</a>
+                        <a href="#products" class="nav__links">Catálogo</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">FAQ</a>
+                        <a href="#FAQ" class="nav__links">FAQ</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="#contact" class="nav__links">Contacto</a>
                     </li>
 
                     <img src="./img/close.svg" class="nav__close">
@@ -86,7 +86,7 @@
     </header>
 
     <main>
-        <section class="container about">
+        <section id="about" class="container about">
             <h2 class="subtitle">Acerca de Tre Center</h2>
             <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus quis et
                 ducimus facilis odit quae. Asperiores maiores aperiam eos veritatis exercitationem, ab illo, labore qui
@@ -117,23 +117,24 @@
             </div>
         </section>
 
-        <section class="products">
+        <section id="products" class="products">
             <div class="products__container container">
-                <div class="knowledege__texts">
+                <div class="products__texts">
                     <h2 class="subtitle">Catálogo completo</h2>
                     <p class="products__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
                         aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
                         aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                    <a href="#" class="cta">Ver más</a>
+                    <button id="see_products_button" class="cta">Ver más</button>
                 </div>
 
                 <figure class="products__picture">
                     <img src="./img/catalogo3.jpg" class="products__img">
                 </figure>
             </div>
+            <div class="products__products"></div>
         </section>
 
-        <section class="questions container">
+        <section id="FAQ" class="questions container">
             <h2 class="subtitle">Preguntas frecuentes</h2>
             <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
                 doloribus neque perspiciatis sapiente fuga.</p>
@@ -253,7 +254,7 @@
             </div>
         </section>
 
-        <section class="contact container" id="contact">
+        <section id="contact" class="contact container" id="contact">
             <h2 class="contact__subtext subtitle">Información y contacto</h2>
             <div class="contact__contact">
                 <div>
@@ -277,7 +278,7 @@
                 <div>
                     <p class="contact__subtext">Envíanos un mensaje:</p>
                     <form class="contact__form" name="form"
-                        action="https://formsubmit.co/8044883a0f8f58cf3189ed5d4b9dddc6" method="POST">
+                        action="https://formsubmit.co/" method="POST">
 
                         <label id="name-label" class="contact__label field_ok" for="name">
                             <p class="contact__description">Nombre:</p>
@@ -317,19 +318,19 @@
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#home" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="#about" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Catálogo</a>
+                        <a href="#products" class="nav__links">Catálogo</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">FAQ</a>
+                        <a href="#FAQ" class="nav__links">FAQ</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="#contact" class="nav__links">Contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -357,6 +358,7 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/products.js"></script>
 </body>
 
 </html>
