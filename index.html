@@ -72,8 +72,8 @@
 
         <section class="hero__container container">
             <div class="social">
-                <a href="#" class="social__link"><i class="fa-brands fa-facebook social__icon"></i></a>
-                <a href="#" class="social__link"><i class="fa-brands fa-instagram social__icon"></i></a>
+                <a href="https://www.facebook.com/SillonesTreecenter/" class="social__link"><i class="fa-brands fa-facebook social__icon"></i></a>
+                <a href="https://www.instagram.com/sillonestrecenter/?hl=es" class="social__link"><i class="fa-brands fa-instagram social__icon"></i></a>
                 <a href="#" class="social__link"><i class="fa-brands fa-whatsapp social__icon"></i></a>
             </div>
             <h3>Bienvenidos a</h3>
@@ -240,7 +240,6 @@
                             <div>
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                             </div>
-                            
                     </div>
 
 
@@ -251,38 +250,53 @@
         </section>
 
         <section class="contact container" id="contact">
+            <h2 class="contact__subtext subtitle">Información y contacto</h2>
+<!-- 
+            <p class="contact__subtext">Seguinos en las redes sociales y envianos un mensaje utilizando el formulario de contacto</p>
+             -->
             <div  class="contact__contact">
-                <h2 class="contact__subtext subtitle">Contacto</h2>
-                <p class="contact__subtext">Complete el siguiente formulario para contactarnos</p>
-                <form class="contact__form" name="form" action="https://formsubmit.co/8044883a0f8f58cf3189ed5d4b9dddc6" method="POST">
-    
-                    <label id="name-label" class="contact__label field_ok" for="name">
-                        <p class="contact__description">Nombre:</p>
-                        <input class="contact__input" id="name" type="text" name="name" autocomplete="off" data-valid="false">
-                        <p id="name-error" class="contact__error-message"></p>
-                    </label>
-    
-                    <label id="email-label" class="contact__label field_ok" for="email">
-                        <p class="contact__description">Email:</p>
-                        <input class="contact__input" id="email" type="email" name="email" autocomplete="off" data-valid="false">
-                        <p id="email-error" class="contact__error-message"></p>
-                    </label>
-    
-                    <label id="subject-label" class="contact__label field_ok" for="subject">
-                        <p class="contact__description">Asunto:</p>
-                        <input class="contact__input" id="subject" type="text" name="subject" autocomplete="off" data-valid="false">
-                        <p id="subject-error" class="contact__error-message"></p>
-                    </label>
-    
-                    <label id="message-label" class="contact__label field_ok" for="message">
-                        <p class="contact__description">Mensaje:</p>
-                        <textarea class="contact__input" rows="5" cols="40" id="message" name="message" autocomplete="off" data-valid="false"></textarea>
-                        <p id="message-error" class="contact__error-message little-font"></p>
-                    </label>
-    
-                    <button type="submit" id="submit_button" class="contact__button" disabled>Enviar mensaje <i class="bi bi-send button-icon"></i></button>
-                </form>
+                <div>
+                    <p class="contact__subtext">Nuestra ubicación:</p>
+                    <div class="contact__boxmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.137889695723!2d-58.431052!3d-34.6032898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb76ea16f5894ac63!2sSillones%20tre%20center!5e0!3m2!1ses-419!2sar!4v1661825498862!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contact__map"></iframe>
+                    </div>
+                    <p class="contact__subtext">Redes y contacto:</p>
+                    <div class="contact__social">
+                        <a href="https://www.facebook.com/SillonesTreecenter/" class="contact__social__link"><i class="fa-brands fa-facebook contacto__social__icon"></i></a>
+                        <a href="https://www.instagram.com/sillonestrecenter/?hl=es" class="contact__social__link"><i class="fa-brands fa-instagram contacto__social__icon"></i></a>
+                        <a href="#" class="contact__social__link"><i class="fa-brands fa-whatsapp contacto__social__icon"></i></a>
+                        <a href="#" class="contact__social__link"><i class="fa-solid fa-envelope contacto__social__icon"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <p class="contact__subtext">Envíanos un mensaje:</p>
+                    <form class="contact__form" name="form" action="https://formsubmit.co/8044883a0f8f58cf3189ed5d4b9dddc6" method="POST">
+        
+                        <label id="name-label" class="contact__label field_ok" for="name">
+                            <p class="contact__description">Nombre:</p>
+                            <input class="contact__input" id="name" type="text" name="name" autocomplete="off" data-valid="false">
+                            <p id="name-error" class="contact__error-message"></p>
+                        </label>
+        
+                        <label id="email-label" class="contact__label field_ok" for="email">
+                            <p class="contact__description">Email:</p>
+                            <input class="contact__input" id="email" type="email" name="email" autocomplete="off" data-valid="false">
+                            <p id="email-error" class="contact__error-message"></p>
+                        </label>
+        
+                        <label id="message-label" class="contact__label field_ok" for="message">
+                            <p class="contact__description">Mensaje:</p>
+                            <textarea class="contact__input" rows="5" cols="40" id="message" name="message" autocomplete="off" data-valid="false"></textarea>
+                            <p id="message-error" class="contact__error-message little-font"></p>
+                        </label>
+        
+                        <button type="submit" id="submit_button" class="contact__button" disabled>Enviar mensaje <i class="bi bi-send button-icon"></i></button>
+                    </form>
+                </div>
             </div>
+
+
+
         </section>
 
     </main>
@@ -311,13 +325,18 @@
                 </ul>
             </nav>
 
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribite a nuestro newsletter</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
-                </div>
-            </form>
+
+            <div>
+                <form class="footer__form" action="https://formspree.io/" method="POST">
+                    <h2 class="footer__newsletter">Suscribite a nuestro newsletter</h2>
+                    <div class="footer__inputs">
+                        <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                        <input type="submit" value="Registrate" class="footer__submit">
+                    </div>
+                </form>
+
+            </div>
+
         </section>
 
         <section class="footer__copy container">

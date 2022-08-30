@@ -378,6 +378,48 @@ section.contact{
     width: 90%;
 }
 
+.contact__contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.contact__boxmap{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__map{
+    display: inline-block;
+    margin: 25px auto;
+}
+
+.contact__social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.contacto__social__icon{
+    font-size: 25px;
+    color: #444cf7;
+}
+/* 
+.contact__social__link > .fa-facebook{
+    color: #166ADA
+}
+.contact__social__link > .fa-instagram{
+    color: #D920CD
+}
+.contact__social__link > .fa-whatsapp{
+    color: #3BB84B
+}
+.contact__social__link > .fa-envelope{
+    color: #EB594E
+}
+ */
 .contact__title{
     display: inline-block;
     padding-bottom: 15px;
@@ -393,12 +435,12 @@ section.contact{
 .contact__form{
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+
     margin-top: 25px;
 }
 
 .contact__label{
-    width: 100%;
+    width: 95%;
     max-width: 750px;
     margin-bottom: 25px;
     padding: .5rem;
@@ -426,7 +468,7 @@ section.contact{
 }
 
 .contact__button{
-    display: inline-block;
+    width: 96%;
     height: 50px;
     padding: 0 20px ;
     background-color: #444cf7;

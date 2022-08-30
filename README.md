@@ -1,4 +1,4 @@
-# Muebleria FGK - Sitio Web
+# Sillones TRE CENTER - Sitio Web
 TPO Desarrollo Web para curso "Codo a Codo" 
 
 
