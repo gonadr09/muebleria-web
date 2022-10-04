@@ -9,10 +9,7 @@
     <link rel="shortcut icon" href="./img/logo4.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
-
     <meta name="theme-color" content="#2091F9">
-
-    <!-- Completar rutas de imagenes y url -->
     <meta name="title" content="Sillones Tre Center">
     <meta name="description"
         content="Tienda Local de ventas de sillones Tre Center. La mejor relación precio calidad en un solo lugar.">
@@ -27,8 +24,13 @@
     <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 
@@ -52,7 +54,7 @@
                         <a href="#products" class="nav__links">Catálogo</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#FAQ" class="nav__links">FAQ</a>
+                        <a href="#FAQ" class="nav__links">Preguntas</a>
                     </li>
                     <li class="nav__items">
                         <a href="#contact" class="nav__links">Contacto</a>
@@ -68,111 +70,134 @@
         </nav>
 
         <section class="hero__container container">
-            <div class="social">
-                <a href="https://www.facebook.com/SillonesTreecenter/" class="social__link"><i
-                        class="fa-brands fa-facebook social__icon"></i></a>
-                <a href="https://www.instagram.com/sillonestrecenter/?hl=es" class="social__link"><i
-                        class="fa-brands fa-instagram social__icon"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5491135022112" class="social__link"><i
-                        class="fa-brands fa-whatsapp social__icon"></i></a>
-            </div>
-            <h3>Bienvenidos a</h3>
-            <h1 class="hero__title">Sillones Tre Center</h1>
+            <h3 class="animate__animated animate__fadeInDown">Bienvenidos a</h3>
+            <h1 class="hero__title animate__animated animate__fadeInDown">Sillones Tre Center</h1>
             <p class="hero__paragraph">Descubrí nuestra colección de comfortables y duraderos sillones para relajarte y
                 decorar tu casa. Encontrarás, sillas, sillones y sofás para cada gusto que combinarán perfectos en tu
-                living y comedor</p>
-            <a href="#" class="cta">Comienza ahora</a>
+                living comedor</p>
+            <div class="social">
+                <a href="https://www.facebook.com/SillonesTreecenter/"
+                    class="social__link animate__animated animate__fadeInRight animate__delay-1s"><i
+                        class="fa-brands fa-facebook social__icon"></i>Facebook</a>
+                <a href="https://www.instagram.com/sillonestrecenter/?hl=es"
+                    class="social__link animate__animated animate__fadeInRight animate__delay-2s"><i
+                        class="fa-brands fa-instagram social__icon"></i>Instagram</a>
+                <a href="https://api.whatsapp.com/send?phone=5491135022112"
+                    class="social__link animate__animated animate__fadeInRight animate__delay-3s"><i
+                        class="fa-brands fa-whatsapp social__icon"></i>Whatsapp</a>
+            </div>
+            <a class="title_mouse" href="#about">
+                <i class="fa-solid fa-angles-down"></i>
+            </a>
         </section>
+
     </header>
 
     <main>
         <section id="about" class="container about">
-            <h2 class="subtitle">Acerca de Tre Center</h2>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus quis et
-                ducimus facilis odit quae. Asperiores maiores aperiam eos veritatis exercitationem, ab illo, labore qui
-                aut, dignissimos distinctio perspiciatis? Cumque, molestias. Sit, ad. Minus enim, nam eius nostrum
-                architecto fugit qui quam consequuntur, natus omnis quae, eligendi voluptatem obcaecati.</p>
+            <h2 class="subtitle wow animate__animated animate__fadeInUp">Acerca de Tre Center</h2>
+            <p class="about__paragraph wow animate__animated animate__fadeInUp">¡Hola! en esta pagina vamos a poder
+                ayudarte con tu elección, tenemos muchos modelos y múltiples colores. Para hacer tu pedido y responder a
+                todas tus dudas, podés comunicarte con nosotros a través de nuestras redes sociales.</p>
 
             <div class="about__main">
-                <article class="about__icons">
+                <article class="about__icons wow animate__animated animate__fadeInLeft">
                     <i class="about__icon fa-solid fa-couch"></i>
                     <h3 class="about__title">Confortables</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <p class="about__paragrah">Hacemos todo a medida para que te sientas la mayor comodida posible</p>
                 </article>
 
-                <article class="about__icons">
+                <article class="about__icons wow animate__animated animate__fadeInRight">
                     <i class="fa-solid fa-clipboard-check about__icon"></i>
                     <h3 class="about__title">Calidad</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <p class="about__paragrah">El mejor material directo de fábrica </p>
                 </article>
 
-                <article class="about__icons">
+                <article class="about__icons wow animate__animated animate__fadeInLeft">
                     <i class="fa-solid fa-truck-fast about__icon"></i>
-                    <h3 class="about__title">Envío gratis</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <h3 class="about__title">Envío veloz</h3>
+                    <p class="about__paragrah">Envío a todas las provincias de Argentina y embalado correctamente para
+                        preservar el producto</p>
+                </article>
+                <article class="about__icons wow animate__animated animate__fadeInRight">
+                    <i class="about__icon fa-solid fa-pen"></i></i>
+                    <h3 class="about__title">Creatividad</h3>
+                    <p class="about__paragrah">Podemos darle la forma que quieras, creando asi un modelo
+                        totalmente nuevo</p>
                 </article>
             </div>
+
         </section>
 
         <section id="products" class="products">
-            <div class="products__container container">
-                <div class="products__texts">
-                    <h2 class="subtitle">Catálogo completo</h2>
-                    <p class="products__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                    <button id="see_products_button" class="cta">Ver más</button>
-                </div>
+            <div class="container">
+                <div class="products__container">
+                    <div class="products__texts wow animate__animated animate__fadeInLeft">
+                        <h2 class="subtitle ">Catálogo completo</h2>
+                        <p class="products__paragraph">Mirá todos los modelos, patas, respaldos, telas y colores que
+                            tenemos disponibles, podes combinar lo mejor de todos los sillones para hacerlo a tu gusto y
+                            tener el sillon de tus sueños! </p>
+                        <button id="see_products_button" class="cta">Ver más <i
+                                class="fa-solid fa-arrow-down"></i></button>
+                    </div>
 
-                <figure class="products__picture">
-                    <img src="./img/catalogo3.jpg" class="products__img">
-                </figure>
+                    <figure class="products__picture wow animate__animated animate__fadeInRight">
+                        <img src="./img/catalogo3.jpg" class="products__title-img">
+                    </figure>
+                </div>
+                <div class="products__products">
+                </div>
             </div>
-            <div class="products__products"></div>
         </section>
 
         <section id="FAQ" class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
+            <h2 class="subtitle wow animate__animated animate__fadeInUp">Preguntas frecuentes</h2>
+            <p class="questions__paragraph wow animate__animated animate__fadeInUp">Si tenes alguna otra consulta que no
+                este aca no dudes en comunicarte con
+                nosotros </p>
 
-            <section class="questions__container">
-                <article class="questions__padding">
+            <div class="questions__container">
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
                     <div class="questions__answer">
                         <h3 class="questions__title">¿Los sillones tienen garantía?
                             <span class="questions__arrow">
                                 <i class="fa-solid fa-angle-down questions__img"></i>
                             </span>
                         </h3>
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show"> Los sillones tienen garantía por 6 meses guardando la factura
+                            <b>solo si son errores de fábrica</b> aunque no hay nada de que preocuparse ya que
+                            utilizamos materiales de primera calidad !
+                        </p>
                     </div>
                 </article>
 
-                <article class="questions__padding">
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿De qué materiales están hechos los sillones?
+                            <span class="questions__arrow">
+                                <i class="fa-solid fa-angle-down questions__img"></i>
+                            </span>
+                        </h3>
+                        <p class="questions__show"> La estructura esta hecha de madera saligna reforzado, los asientos
+                            son de 28kg/m3 alta densidad, los almohadones de resplado están rellenos de copos</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
                     <div class="questions__answer">
                         <h3 class="questions__title">¿Se puede cambiar si no me gusta?
                             <span class="questions__arrow">
                                 <i class="fa-solid fa-angle-down questions__img"></i>
                             </span>
                         </h3>
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Lamentablemente no, por eso es muy importante que antes de hacer un
+                            pedido estes 100% seguro de tu decisión, aunque nuestras vendedoras te pueden ayudar,
+                            también podés mirar nuevamente nuestro catálogo o visitar nuestras redes sociales <b>IG:
+                                @Sillonestrecenter</b></p>
                     </div>
                 </article>
 
-                <article class="questions__padding">
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
                     <div class="questions__answer">
                         <h3 class="questions__title">¿Cómo limpiarlos y mantenerlos?
                             <span class="questions__arrow">
@@ -180,31 +205,59 @@
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Esto es muy simple y sensillo, todos los almohadones de resplado y
+                            las
+                            placas tienen cierres, solo hay que sacar el relleno y meter la tela en el lavaropa. En el
+                            caso de que tengas uno de nuetros <b>sillones en tela Pana</b> la mancha se puede quitar con
+                            un trapo un humedo.</p>
                     </div>
                 </article>
-            </section>
 
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuánto tardan en fabricar?
+                            <span class="questions__arrow">
+                                <i class="fa-solid fa-angle-down questions__img"></i>
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Tardamos <b>5 días habiles aproximado</b> en la fabricación, aunque
+                            si no querés esperar podés consultar que modelos tenemos en stock, <b>Pagas hoy y lo recibís
+                                HOY</b></p>
+                    </div>
+                </article>
+
+                <article class="questions__padding wow animate__animated animate__fadeInUp">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Que transporte utilizan?
+                            <span class="questions__arrow">
+                                <i class="fa-solid fa-angle-down questions__img"></i>
+                            </span>
+                        </h3>
+
+                        <p class="questions__show"> Como método de envío utilizamos camión para todo <b>AMBA.</b> si te
+                            encontrás fuera de la provincia de Buenos Aires lo enviamos por <b>Vía Cargo</b>, también
+                            podemos utlizar transportes de recomendación de los clientes. y por último, si tenés
+                            transporte podés pasar a retirar directo de fábrica! <br><br><b><i>Consultá la cotización
+                                    del envío por nuestra página de Instagram: @Sillonestrecenter o por Whatsapp: +54 11
+                                    3502-2112</i></b></p>
+                    </div>
+                </article>
         </section>
+
         <section class="testimony">
             <div class="testimony__container container">
                 <img src="./img/leftarrow.svg" class="testimony__arrow" id="before">
 
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
-                        <h4 class="testimony__course">Instagram</h4>
-                        <h2 class="subtitle">Cliente 1 </h2>
+                        <h4 class="testimony__course">Google</h4>
+                        <h2 class="subtitle">China Rodriguez</h2>
                         <figure class="testimony__picture">
                             <img src="https://randomuser.me/api/portraits/women/10.jpg" class="testimony__img">
                         </figure>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <p class="testimony__review">Compré desde Córdoba, la verdad muy hermoso, súper recomendables,
+                            estaba muy bien embalado y me cumplieron con la fecha de entrega . Gracias ☺️</p>
                         <div>
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -215,14 +268,13 @@
 
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
-                        <h4 class="testimony__course">Google</h4>
-                        <h2 class="subtitle">Cliente 2</h2>
+                        <h4 class="testimony__course">Instagram</h4>
+                        <h2 class="subtitle">Carlos Cáceres</h2>
                         <figure class="testimony__picture">
                             <img src="https://randomuser.me/api/portraits/men/71.jpg" class="testimony__img">
                         </figure>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
+                        <p class="testimony__review">Excelente atención! Me aclararon todas las dudas, cumplieron los
+                            tiempos de entrega y la calidad del sillón excelente. Muy recomendables.</p>
                         <div>
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -234,13 +286,13 @@
 
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h4 class="testimony__course">Facebook</h4>
-                        <h2 class="subtitle">Cliente 3</h2>
+                        <h4 class="testimony__course">Instagram</h4>
+                        <h2 class="subtitle">Diana Espinola</h2>
                         <figure class="testimony__picture">
                             <img src="https://randomuser.me/api/portraits/women/79.jpg" class="testimony__img">
                         </figure>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <p class="testimony__review"> Excelente calidad y a precio. Entrega a tiempo pautada.
+                            Un lujo. Recomendable</p>
                         <div>
                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                 class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -254,59 +306,70 @@
             </div>
         </section>
 
-        <section id="contact" class="contact container" id="contact">
+        <section id="contact" class="contact container">
             <h2 class="contact__subtext subtitle">Información y contacto</h2>
+            <br>
             <div class="contact__contact">
                 <div>
-                    <p class="contact__subtext">Nuestra ubicación:</p>
+                    <div>
+                        <p><b>Nuestra ubicación:</b> Panamá 939 (CABA, Almagro)</p><br>
+                        <p><b>Contacto:</b> (+54) 11 3502-2112</p><br>
+                        <b>Horarios:</b><br><br>
+                        <ul></ul>
+                        <li>Lunes a Viernes 9 - 13 hs y de 15 - 19hs </li> <br>
+                        <li>Sabado de 9 - 14hs</li> <br>
+                        </ul>
+                    </div>
                     <div class="contact__boxmap">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.137889695723!2d-58.431052!3d-34.6032898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb76ea16f5894ac63!2sSillones%20tre%20center!5e0!3m2!1ses-419!2sar!4v1661825498862!5m2!1ses-419!2sar"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade" class="contact__map"></iframe>
                     </div>
-                    <p class="contact__subtext">Redes y contacto:</p>
-                    <div class="contact__social">
-                        <a href="https://www.facebook.com/SillonesTreecenter/" class="contact__social__link"><i
-                                class="fa-brands fa-facebook contacto__social__icon"></i></a>
-                        <a href="https://www.instagram.com/sillonestrecenter/?hl=es" class="contact__social__link"><i
-                                class="fa-brands fa-instagram contacto__social__icon"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=5491135022112" class="contact__social__link"><i
-                                class="fa-brands fa-whatsapp contacto__social__icon"></i></a>
-                    </div>
+
                 </div>
-                <div>
-                    <p class="contact__subtext">Envíanos un mensaje:</p>
-                    <form class="contact__form" name="form"
-                        action="https://formsubmit.co/" method="POST">
+                <div class="form-message">
+                    <h4 class="contact__subtext">Envíanos un mensaje:</h4>
+                    <form class="contact__form" name="form" method="POST"
+                        action="https://formsubmit.co/kevin72723@gmail.com">
 
                         <label id="name-label" class="contact__label field_ok" for="name">
                             <p class="contact__description">Nombre:</p>
-                            <input class="contact__input" id="name" type="text" name="name" autocomplete="off"
+                            <input class="contact__input" id="name" type="text" name="name" autocomplete="off" required
                                 data-valid="false">
-                            <p id="name-error" class="contact__error-message"></p>
+                            <p id="name-error" class="contact__error-message">Este campo no es válido</p>
                         </label>
 
                         <label id="email-label" class="contact__label field_ok" for="email">
                             <p class="contact__description">Email:</p>
                             <input class="contact__input" id="email" type="email" name="email" autocomplete="off"
-                                data-valid="false">
-                            <p id="email-error" class="contact__error-message"></p>
+                                required data-valid="false">
+                            <p id="email-error" class="contact__error-message">Este campo no es válido</p>
                         </label>
 
                         <label id="message-label" class="contact__label field_ok" for="message">
                             <p class="contact__description">Mensaje:</p>
-                            <textarea class="contact__input" rows="5" cols="40" id="message" name="message"
+                            <textarea class="contact__input" rows="7" cols="40" id="message" name="message" required
                                 autocomplete="off" data-valid="false"></textarea>
-                            <p id="message-error" class="contact__error-message little-font"></p>
+                            <p id="message-error" class="contact__error-message little-font">Este campo no es válido</p>
                         </label>
 
-                        <button type="submit" id="submit_button" class="contact__button" disabled>Enviar mensaje <i
+                        <button type="submit" id="submit_button" class="contact__button">Enviar mensaje <i
                                 class="bi bi-send button-icon"></i></button>
                     </form>
                 </div>
             </div>
-
+            <!--             <div class="redes-contacto">
+                <h3 class="contact__subtext">Redes y contacto:</h3>
+                <div class="contact__social">
+                    <a href="https://www.facebook.com/SillonesTreecenter/" class="contact__social__link"><i
+                            class="fa-brands fa-facebook contacto__social__icon"></i></a>
+                    <a href="https://www.instagram.com/sillonestrecenter/?hl=es" class="contact__social__link"><i
+                            class="fa-brands fa-instagram contacto__social__icon"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5491135022112" class="contact__social__link"><i
+                            class="fa-brands fa-whatsapp contacto__social__icon"></i></a>
+                </div>
+            </div> -->
         </section>
 
     </main>
@@ -314,7 +377,7 @@
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
-                <img class="nav__title" src="./img/logo4.png"></img>
+                <img class="nav__title2" src="./img/logo4.png"></img>
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
@@ -337,11 +400,11 @@
 
 
             <div>
-                <form class="footer__form" action="https://formspree.io/" method="POST">
-                    <h2 class="footer__newsletter">Suscribite a nuestro newsletter</h2>
+                <form class="footer__form" action="#">
+                    <h2 class="footer__newsletter">Suscribite a nuestro newsletter</h2> <br>
                     <div class="footer__inputs">
-                        <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                        <input type="submit" value="Registrate" class="footer__submit">
+                        <input type="email" placeholder="Email:" class="footer__input" name="_replyto" required>
+                        <input type="submit" value="Registrate" id="register-submit" class="footer__submit">
                     </div>
                 </form>
 
@@ -351,7 +414,7 @@
 
         <section class="footer__copy container">
             <p class="footer__copyright">Copyright &copy; 2022 | Sillones Tre Center</p>
-            <p class="footer__copyright">Este sitio no es real. Fue realizado para un trabajo práctico</p>
+            <p class="footer__copyright">Este sitio no es real. TP realizado por Kevin y Gonzalo</p>
         </section>
     </footer>
 
@@ -359,6 +422,12 @@
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/products.js"></script>
+    <script src="./js/contactForm.js"></script>
+    <script src="./js/newsletter.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

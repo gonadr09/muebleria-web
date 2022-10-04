@@ -1,17 +1,35 @@
 # Sillones TRE CENTER - Sitio Web
-TPO Desarrollo Web para curso "Codo a Codo" 
+
+TPO Desarrollo Web - HTML, CSS y Javascript 
+Curso Codo a Codo 4.0 - Comisión #22523 - Prof: Paola Romero
 
 
 
 ## 🧍‍♂️ Integrantes
-Florentino - Gonzalo Díaz Rusconi - Kevin Díaz
 
+• Gonzalo Díaz Rusconi
+• Kevin Díaz
 
 
 ## 💻 Tecnologías
+
 ![HTML](https://img.shields.io/badge/HTML-5A5A5A?logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-5A5A5A?logo=css3&logoColor=01A3D8)
 ![JS](https://img.shields.io/badge/JavaScript-5A5A5A?logo=javascript&logoColor=yelllow)
+
+
+
+## 📒 Info del TP
+
+✔ Es un sitio One Page que contiene más de 5 secciones. Se utilizaron etiquetas semánticas para estructurar el sitio y una combinación de flexbox y grid para la maquetación y posición de los elementos.
+
+✔ Se utilizó el Iframe de Google Maps para mostrar la ubicación de la fábrica, íconos de Fontawesome y fuentes de Google Fonts
+
+✔ El sitio es responsive con 3 puntos de corte (PC, tablet, smartphone)
+
+✔ La animación de flotación de la flecha azul hacía abajo que está ubicada en el header hecha solamente con CSS. También tiene importada la librería animate.css para animar algunos elementos como los títulos y wow.js para que éstos se animen cuando se hace scroll.
+
+✔ Se consume la API de mercadolibre para buscar productos y mostrar un catálogo utilizando el siguiente endpoint -> https://api.mercadolibre.com/sites/MLA/search?q=$sofa`
 
 
 
