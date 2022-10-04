@@ -412,6 +412,8 @@ body {
   transition: transform 0.3s;
   color: #fff;
   padding: 5px;
+  height: 25px;
+  width: 25px;
 
 }
 
