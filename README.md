@@ -1,6 +1,6 @@
 # Sillones TRE CENTER - Sitio Web
+TPO Desarrollo Web - HTML, CSS y Javascript
 
-TPO Desarrollo Web - HTML, CSS y Javascript 
 Curso Codo a Codo 4.0 - Comisión #22523 - Prof: Paola Romero
 
 
@@ -8,6 +8,7 @@ Curso Codo a Codo 4.0 - Comisión #22523 - Prof: Paola Romero
 ## 🧍‍♂️ Integrantes
 
 • Gonzalo Díaz Rusconi
+
 • Kevin Díaz
 
 
