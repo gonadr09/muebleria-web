@@ -400,20 +400,19 @@ body {
   cursor: pointer;
   color: var(--color-title);
   justify-content: space-between;
+  align-items: center;
 }
 
 .questions__arrow {
   border-radius: 50%;
   background-color: var(--color-title);
-  width: 25px;
-  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: flex-end;
-  margin-left: 10px;
   transition: transform 0.3s;
   color: #fff;
+  padding: 5px;
+
 }
 
 .questions__arrow--rotate {
@@ -469,6 +468,8 @@ body {
   transition: opacity 1.5s ease-in-out;
 }
 
+
+
 .testimony__img {
   width: 100px;
   height: 100px;
@@ -484,6 +485,10 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.testimony__texts > .subtitle{
+  text-align: center;
 }
 
 .testimony__course {
