@@ -792,11 +792,6 @@ section.contact {
     justify-items: center;
   }
 
-  .testimony__img {
-    width: 200px;
-    height: 200px;
-  }
-
   .contact__contact {
     grid-template-columns: 1fr;
   }
